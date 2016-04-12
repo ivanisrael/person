@@ -8,7 +8,7 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "illuminate/database": "0.5.*"
+        "illuminate/database": "v5.*"
     },
     "autoload": {
     	"psr-4": {
