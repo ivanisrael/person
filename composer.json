@@ -1,0 +1,18 @@
+{
+    "name": "sample/vendor",
+    "description": "A Person Class",
+    "authors": [
+        {
+            "name": "Ivan Israel"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "illuminate/database": "0.5.*"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Person\\": "src/"
+    	}
+    }
+}
