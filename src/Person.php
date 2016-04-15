@@ -6,19 +6,20 @@ use Illuminate\Database\Eloquent\Model;
 
 class Person extends Model
 {
-    public $first_name;
-    public $last_name;
-    public $middle_name;
-    public $birthdate;
-    public $street_address;
-    public $city;
-    public $province;
-    public $country;
-    public $zipcode;
-    public $religion;
-    public $gender;
-    public $mobile;
-    public $phone;
+    private $first_name;
+    private $last_name;
+    private $middle_name;
+    private $email;
+    private $birthdate;
+    private $street_address;
+    private $city;
+    private $province;
+    private $country;
+    private $zipcode;
+    private $religion;
+    private $gender;
+    private $mobile;
+    private $phone;
 
      /**
      * The attributes that are mass assignable.
@@ -29,6 +30,7 @@ class Person extends Model
         'first_name',
         'last_name',
         'middle_name',
+        'email',
         'birthdate',
         'street_address',
         'city',
