@@ -21,6 +21,8 @@ class Person extends Model
     private $mobile;
     private $phone;
 
+    protected $table = 'persons';
+    
      /**
      * The attributes that are mass assignable.
      *
